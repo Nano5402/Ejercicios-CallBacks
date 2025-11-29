@@ -36,7 +36,7 @@
 
 // setTimeout(saludar, 2000);
 
-const frutas = ['Manzana', 'Pera', 'Banano', 'Anis']
+// const frutas = ['Manzana', 'Pera', 'Banano', 'Anis']
 
 // frutas.forEach((a, b, c) => {
 //   console.log(a);
@@ -94,6 +94,45 @@ const frutas = ['Manzana', 'Pera', 'Banano', 'Anis']
 // console.log(array1.length);
 
 
-// let res = array1.fill ("b",2,4)
+// let res = array1.fill (33,2,4)
 
 // console.log(res);
+
+// const array = [1, 2, 3, 4, 5];
+
+// const even = ((element) => {
+//   return element % 2 === 0;
+// });
+
+// let res = array.some(even);
+
+// const array = [1, 2, 3, 4, 5];
+
+// const even = ((element) => {
+//   return element % 2 === 0;
+// });
+
+// let res = array.every(even);
+
+// const array1 = ["a", "b", "c"];
+// const array2 = ["d", "e", "f"];
+// const array3 = array1.concat(array2);
+
+// console.log(array3);
+
+// const arr1 = [0, 1, 2, [3, 4]];
+
+// console.log(arr1.flat());
+
+// const arr1 = [0, 1, 2, [3, 4], 5, 6, [7, 8, [9, 10, 11, [12, 13, 14]]]];
+
+// console.log(arr1.flat(3));
+
+// const arr1 = [1, 2, 1];
+
+// const result = arr1.flatMap((num) => {
+//   return num === 2 ? [2, 2] : 1;
+// });
+
+// console.log(result);
+
